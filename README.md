@@ -1,16 +1,47 @@
-# task2
+# Preliminary Task Impacteer
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this App: 
+(Android)
+Step 1 : Flutter version - 3.22.1
+Step 2 : flutter pub get
+step 3 : flutter run
 
-A few resources to get you started if this is your first Flutter project:
+(IOS)
+step 4 : Project Root directory -> cd iso
+step 5 : pod install 
+step 6 : Open ios folder in xcode and build
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Task Question: 
+Flutter Developer preliminary screening task
+You need to create an application to list users using the following api
+• Create the application using clean architecture
+• The application should run on both IOS and Android
+• Use SF-PRO font family
+• Use Bloc for State management
+
+The application should have two screens,
+First screen
+• Should list all the users and support infinite scroll using pagination.
+• You can design the UI as per your skills.
+Second screen
+• Should display the user content
+• Try to show your designing & animation skills in this page
+
+You should push your code to github and publicly share the url with us with build instructions.
+
+Api Docs
+
+Base url = https://reqres.in/
+
+List users
+End point : api/users?page={page_number}
+Params supported: page
+
+Get User
+Endpoint : api/users/{user_id}
